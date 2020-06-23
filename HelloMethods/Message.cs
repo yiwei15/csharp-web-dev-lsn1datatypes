@@ -10,11 +10,11 @@
             }
             else if (lang.Equals("fr"))
             {
-                return "Bonjour le monde";
+                return "Bonjour le monde!!!";
             }
             else
             {
-                return "Hello World";
+                return "Hello World!!!";
             }
         }
     }

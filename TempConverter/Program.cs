@@ -15,7 +15,8 @@ namespace TempConv
             fahrenheit = double.Parse(input);
 
             celsius = (fahrenheit - 32) * 5 / 9;
-            Console.WriteLine("The Temperature in C is: " + celsius);
+            //Implict type-casting  
+            Console.WriteLine("The Temperature in C is:" + celsius);
             Console.ReadLine();
         }
     }

@@ -1,9 +1,18 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConverter", "TempConverter\TempConverter.csproj", "{71E4530D-3E51-43F1-9C81-87417D67E40F}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempConverter", "TempConverter\TempConverter.csproj", "{71E4530D-3E51-43F1-9C81-87417D67E40F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMethods", "HelloMethods\HelloMethods.csproj", "{5DDF587E-34B6-430B-96A0-F9DB1A786915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMethods", "HelloMethods\HelloMethods.csproj", "{5DDF587E-34B6-430B-96A0-F9DB1A786915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOutput", "InputOutput\InputOutput.csproj", "{4A338DC1-35F4-49F3-BD44-022D1773C019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTypes", "NumericTypes\NumericTypes.csproj", "{DEF21015-3450-4E7B-A611-7A6AABDDEAF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasPerMile", "GasConsumed\GasPerMile.csproj", "{2AB5E61A-D687-4B44-AFBF-AAD80D3E720E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{009E044B-3988-40EB-85CA-D7F8ECFDCB2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +28,27 @@ Global
 		{5DDF587E-34B6-430B-96A0-F9DB1A786915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DDF587E-34B6-430B-96A0-F9DB1A786915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DDF587E-34B6-430B-96A0-F9DB1A786915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A338DC1-35F4-49F3-BD44-022D1773C019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A338DC1-35F4-49F3-BD44-022D1773C019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A338DC1-35F4-49F3-BD44-022D1773C019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A338DC1-35F4-49F3-BD44-022D1773C019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF21015-3450-4E7B-A611-7A6AABDDEAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF21015-3450-4E7B-A611-7A6AABDDEAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF21015-3450-4E7B-A611-7A6AABDDEAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF21015-3450-4E7B-A611-7A6AABDDEAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB5E61A-D687-4B44-AFBF-AAD80D3E720E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB5E61A-D687-4B44-AFBF-AAD80D3E720E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB5E61A-D687-4B44-AFBF-AAD80D3E720E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB5E61A-D687-4B44-AFBF-AAD80D3E720E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009E044B-3988-40EB-85CA-D7F8ECFDCB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009E044B-3988-40EB-85CA-D7F8ECFDCB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009E044B-3988-40EB-85CA-D7F8ECFDCB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009E044B-3988-40EB-85CA-D7F8ECFDCB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41DEE1E2-71AF-4A0E-9E7A-4A4319446A18}
 	EndGlobalSection
 EndGlobal
